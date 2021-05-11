@@ -1,0 +1,251 @@
+@font-face {
+    font-family: 'Source Sans Pro', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap') format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+* header * {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    outline: 0 !important;
+}
+
+body {
+    background-color: #f7f7f7;
+    background-image: url(../images/fon.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+/*Хеадер*/
+.header {
+    height: 4vw;
+    width: 100vw;
+    display: inline-block;
+    background-color: #000000;
+    position: fixed;
+    z-index: 9999;
+    border-top: 1vw solid #501180;
+}
+
+.logo {
+    margin-left: 1.5vw;
+    height: 4vw;
+    width: auto;
+    display: inline-block;
+    position: relative;
+}
+
+.logoimg {
+    height: 3vw;
+    margin-top: 0.5vw;
+}
+
+.header-menu {
+    display: block;
+    float: right;
+    height: 4vw;
+    right: 1.4vw;
+    position: relative;
+    margin-top: 3.2vw;
+    transform: translateY(-50%);
+}
+
+.heada {
+    position: relative;
+    text-decoration: none;
+}
+
+.side {
+    position: relative;
+    display: inline-block;
+    margin-left: 1vw;
+    padding: 0.2vw 0.5vw 0.15vw 0.5vw;
+    color: #ffffff;
+    font-size: 1.1vw;
+    border-left: 0.21vw solid #ffffff;
+    border-right: 0.21vw solid #ffffff;
+}
+
+.side:hover {
+    margin-top: -0.3vw;
+    padding: 0.5vw 0.5vw 0.45vw 0.5vw;
+    border-left: 0.21vw solid #ffffff;
+    border-right: 0.21vw solid #ffffff;
+}
+
+/*Боковая панель*/
+.sidepanel {
+    height: calc(100vh - 11.3vw);
+    margin-top: 11.3vw;
+    width: 20vw;
+    border-right: 0.3vw solid #000000;
+    border-left: 0.3vw solid #000000;
+    position: fixed;
+    background-color: #fafafa;
+    margin-left: 10vw;
+}
+
+.sidenaz {
+    padding-left: 1.4vw;
+    font-size: 1.2vw;
+    color: #ffffff;
+    margin-top: 0.5vw;
+}
+
+.othernaz {
+    margin-top: 2.4vw;
+    margin-left: 1.35vw;
+    font-size: 1.6vw;
+}
+
+.side-li {
+    margin-bottom: 0.6vw;
+    position: relative;
+    color: #000000;
+    padding-bottom: 0.5vw;
+    border-bottom: 0.15vw solid #000000;
+    display: block;
+    width: 11.3vw;
+    font-size: 1.1vw;
+}
+
+.sidea {
+    text-decoration: none;
+}
+
+.copyright {
+    bottom: 1vw;
+    margin-left: 6.4vw;
+    font-size: 1vw;
+    position: absolute;
+}
+
+/*Основной раздел*/
+.postheader {
+    width: 80vw;
+    height: 2.5vw;
+    background: linear-gradient(to top right, #501180 50%, rgba(0, 0, 0, 0) 52%);
+    position: absolute;
+    margin-top: 8.23vw;
+    margin-left: 10vw;
+    border: 0.3vw solid #000000;
+}
+
+.default {
+    position: absolute;
+    text-align: center;
+    margin-left: 30.55vw;
+    margin-top: 11.3vw;
+    width: 59.7vw;
+    height: calc(100vh - 11.3vw);
+    background-color: #ffffff;
+    opacity: 0.6vw;
+    border-right: 0.3vw solid #000000;
+}
+
+.hello {
+    font-size: 2vw;
+    margin-top: 8vw;
+}
+
+.choise {
+    display: none;
+    margin-top: 11vw;
+    position: absolute;
+    margin-left: 30vw;
+    font-size: 1.1vw;
+}
+
+.privet {
+    position: relative;
+    background-color: #ffffff;
+    margin-top: -7.9vw;
+}
+
+.svgCorner {
+    fill: #501180;
+    width: 7vw;
+}
+
+.svgCornerBL {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.svgCornerBR {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(270deg);
+}
+
+.svgCornerTL {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: rotate(180deg);
+}
+
+.svgCornerTR {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(90deg);
+}
+
+.librfoot {
+    width: 59.7vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/*Таблицы*/
+th,
+td {
+    text-align: left;
+    padding-right: 1vw;
+    font-size: 1.1vw;
+}
+
+/*Регистрация*/
+.message {
+    font-size: 1.1vw;
+    margin-bottom: 2vw;
+}
+
+.reg {
+    font-size: 2.2vw;
+}
+
+.regbutton {
+    border: none;
+    outline: 0;
+    font-size: 1.3vw;
+    color: #ffffff;
+    background-color: #501180;
+    padding: 0.8vw 1vw;
+}
+
+.reginput {
+    border: 0.1vw solid #000000;
+    background-color: #ffffff;
+    font-size: 1.1vw;
+    padding: 0.5vw 0.7vw;
+    
+}
